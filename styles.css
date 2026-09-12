@@ -432,6 +432,12 @@ a:focus-visible, button:focus-visible{
    Pilares
    ========================================================================== */
 .pilares{ background: var(--paper); max-width: var(--maxw); margin: 0 auto; }
+.pilares-group{ margin-bottom: 30px; }
+.pilares-group:last-child{ margin-bottom: 0; }
+.pilares-group-label{
+  font-family: var(--font-mono); font-size: 0.76rem; text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--signal); opacity: 0.6; margin-bottom: 14px;
+}
 .pilares-grid{
   display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
   background: var(--line); border: 1px solid var(--line); border-radius: var(--radius);
@@ -451,9 +457,6 @@ a:focus-visible, button:focus-visible{
 
 @media (max-width: 860px){
   .pilares-grid{ grid-template-columns: 1fr; }
-}
-@media (min-width: 861px) and (max-width: 1080px){
-  .pilares-grid{ grid-template-columns: repeat(2, 1fr); }
 }
 
 /* ==========================================================================
