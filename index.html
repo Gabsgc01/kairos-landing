@@ -176,14 +176,11 @@
     </div>
 
     <!-- VIDEO SLOT 2 — live capture -->
-    <div class="video-slot video-slot--inline" data-video-slot="captura-ao-vivo" data-reveal>
-      <div class="video-slot-inner">
-        <span class="play-ring" aria-hidden="true">
-          <svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
-        </span>
-        <p class="video-slot-title">Espaço reservado — captura ao vivo</p>
-        <p class="video-slot-hint">id: captura-ao-vivo · sugestão: reunião real sendo transcrita e analisada em tempo real</p>
-      </div>
+    <div class="video-slot video-slot--inline video-slot--portrait video-slot--filled" data-video-slot="captura-ao-vivo" data-reveal>
+      <video controls preload="metadata" playsinline>
+        <source src="videos/captura-ao-vivo.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo HTML5.
+      </video>
     </div>
   </section>
 

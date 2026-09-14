@@ -374,6 +374,9 @@ a:focus-visible, button:focus-visible{
 }
 .video-slot--filled:hover{ border-color: var(--line); background: #0d0c22; }
 .video-slot--filled video{ width: 100%; height: 100%; object-fit: contain; display: block; }
+.video-slot--inline.video-slot--portrait{
+  aspect-ratio: 552 / 892; width: 320px; max-width: 100%; margin-left: auto; margin-right: auto;
+}
 .video-slot-inner{ text-align: center; padding: 24px; max-width: 480px; }
 .play-ring{
   display: inline-flex; align-items: center; justify-content: center;
